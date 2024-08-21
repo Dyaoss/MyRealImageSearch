@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_result"
+        android:enabled="true"
+        android:icon="@drawable/icon_search"
+        android:title="@string/bottom_navi_search_result"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/my_storage"
+        android:enabled="true"
+        android:icon="@drawable/icon_storage"
+        android:title="@string/bottom_navi_my_storage"
+        app:showAsAction="always" />
+
+</menu>
